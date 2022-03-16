@@ -32,11 +32,10 @@ public class MainActivity extends AppCompatActivity {
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(button_push==true) {
+                if (button_push == true) {
                     btn1.setText("Button One");
                     button_push = false;
-                }
-                else {
+                } else {
                     btn1.setText("Button 1");
                     button_push = true;
                 }
@@ -44,11 +43,14 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Button btn5 = findViewById(R.id.button5);
-//        btn5.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//
-//        });
+        btn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+            }
+        });
+
     }
 
     class MyOnClickListener1 implements View.OnClickListener {

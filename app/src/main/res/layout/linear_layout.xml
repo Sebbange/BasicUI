@@ -18,22 +18,22 @@
             android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button 1"
-            android:onClick="doAction" />
+            android:text="Button 1" />
+        <!-- 각 버튼마다 id를 설정해줘야 각각의 버튼을 지칭할 수 있음-->
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Button 2"
-            android:layout_gravity="center" />
+            android:layout_gravity="center_horizontal" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Button 3"
-            android:layout_gravity="end"
+            android:layout_gravity="right"
 
             />
     </LinearLayout>
@@ -45,6 +45,11 @@
         android:layout_margin="10dp"
         android:background="#00aaff"
         android:orientation="horizontal">
+        <!-- weight를 1로 하는 이유는 두 개를 반반으로 나누려고-->
+        <!-- 왜 위에는 vertical 아래는 horizontal 로 했는가?
+        vertical은 수평방향으로만, horizontal은 수직방향으로만 위치를 이동할 수 있음.
+        그 차이를 보기 위해 다르게 만듦-->
+        <!-- 두 번째 LinearLayout에게 margin 10dp == 배경 (붉은 색)이 보임-->
 
         <Button
             android:id="@+id/button4"
@@ -57,14 +62,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Button 5"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center_vertical"/>
 
         <Button
             android:id="@+id/button6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Button 6"
-            android:layout_gravity="end|bottom" />
+            android:layout_gravity="bottom" />
     </LinearLayout>
 
 </LinearLayout>

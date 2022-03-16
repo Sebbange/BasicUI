@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Basic UI</string>
+    <string name="msg">Button 1 clicked</string>
+</resources>

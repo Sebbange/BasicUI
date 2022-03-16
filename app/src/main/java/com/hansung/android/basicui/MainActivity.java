@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onClick(View view) {
-            Toast.makeText(getApplicationContext(), R.string.msg,
+            Toast.makeText(getApplicationContext(), R.string.btn1_msg,
                     Toast.LENGTH_SHORT).show();
         }
     }

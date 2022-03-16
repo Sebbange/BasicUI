@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Basic UI</string>
-    <string name="msg">Button 1 clicked</string>
+    <string name="btn1_msg">Button 1 clicked</string>
+    <string name="btn2_msg">Button 2 clicked</string>
+    <string name="btn3_msg">Button 3 clicked</string>
 </resources>

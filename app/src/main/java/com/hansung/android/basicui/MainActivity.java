@@ -3,8 +3,10 @@ package com.hansung.android.basicui;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -43,11 +45,11 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Button btn5 = findViewById(R.id.button5);
+        LinearLayout layout = (LinearLayout) findViewById(R.id.linearlayout2);
         btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-
+                layout.setGravity(Gravity.CENTER_HORIZONTAL);
             }
         });
 

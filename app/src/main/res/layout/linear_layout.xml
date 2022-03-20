@@ -8,6 +8,7 @@
     tools:context="com.hansung.android.basicui.MainActivity">
 
     <LinearLayout
+        android:id="@+id/linearlayout1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
@@ -39,6 +40,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearlayout2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"

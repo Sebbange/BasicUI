@@ -53,6 +53,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button btn6 = findViewById(R.id.button6);
+        btn6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                layout.setPadding(20,20,20,20);
+            }
+        });
+
     }
 
     class MyOnClickListener1 implements View.OnClickListener {
